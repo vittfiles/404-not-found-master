@@ -1,0 +1,91 @@
+:root {
+    --color-h: #333333;
+    --color-p: #4F4F4F;
+    --color-f: #BDBDBD;
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url(font/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: monospace;
+    src: url(font/Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+html, body{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 960px;
+    margin: 0px auto;
+}
+.vertical{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.item{
+    flex-grow: 1;
+}
+.pad{
+    padding: 1rem;
+}
+.title{
+    font-family: Inconsolata;
+    font-size: 1rem;
+    color: var(--color-h);
+}
+.sub-title{
+    font-family: Inconsolata;
+    font-size: 3.5rem;
+    color: var(--color-h);
+}
+.text{
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 2rem 0rem 3rem 0rem;
+    color: var(--color-p);
+}
+.button{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #FFFFFF;
+    background-color: var(--color-h);
+}
+.sm-100 { width: 100%; }
+main{
+    padding: 4rem 0rem;
+}
+footer{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+    color: var(--color-f);
+}
+footer p{
+    font-weight: 500;
+}
+footer a{
+    font-weight: 700;
+    color: var(--color-f);
+}
+@media ( min-width: 520px ){
+    .lg-50 { width: 50%; }
+}
