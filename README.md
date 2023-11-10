@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://fir-web-2cb05.web.app/404.html">
+    <a href="https://vittfiles.github.io/404-not-found-master/">
       Demo
     </a>
     <span> | </span>
